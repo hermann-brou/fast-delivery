@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Panier | LivraisonPlat</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header>
+    <div class="parallax"></div>
+
+    <nav class="navbar">
+      <div class="logo">Livraison<span>Plat</span></div>
+      <ul class="nav-links">
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="panier.html" class="active">Panier</a></li>
+        <li><a href="login.html">Connexion</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="panier-section">
+    <h1 class="panier-title">Votre Panier</h1>
+    <div class="panier-container">
+      <!-- Exemple d'article dans le panier -->
+      <div class="panier-item">
+        <img src="images/pizza.jpg" alt="Pizza Margherita" />
+        <div class="item-info">
+          <h3>Pizza Margherita</h3>
+          <p>Quantité : 1</p>
+          <span class="price">6 000 FCFA</span>
+        </div>
+        <button class="btn btn-suppr">Supprimer</button>
+      </div>
+
+      <div class="panier-item">
+        <img src="images/burger.jpg" alt="Burger Royal" />
+        <div class="item-info">
+          <h3>Burger Royal</h3>
+          <p>Quantité : 2</p>
+          <span class="price">10 000 FCFA</span>
+        </div>
+        <button class="btn btn-suppr">Supprimer</button>
+      </div>
+    </div>
+
+    <div class="total-section">
+      <p>Total : <strong>16 000 FCFA</strong></p>
+      <a href="commande.html" class="btn">Passer la commande</a>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 LivraisonPlat - Tous droits réservés.</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

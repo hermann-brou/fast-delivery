@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Commande | LivraisonPlat</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="logo">Livraison<span>Plat</span></div>
+      <ul class="nav-links">
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="panier.html">Panier</a></li>
+        <li><a href="login.html">Connexion</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="commande-section">
+    <h1 class="commande-title">Informations de Livraison</h1>
+    <form class="commande-form" action="#" method="post">
+      <label for="nom">Nom complet :</label>
+      <input type="text" id="nom" name="nom" required />
+
+      <label for="adresse">Adresse de livraison :</label>
+      <textarea id="adresse" name="adresse" rows="3" required></textarea>
+
+      <label for="tel">Numéro de téléphone :</label>
+      <input type="tel" id="tel" name="tel" required />
+
+      <label for="notes">Instructions supplémentaires (facultatif) :</label>
+      <textarea id="notes" name="notes" rows="2"></textarea>
+
+      <button type="submit" class="btn">Confirmer la commande</button>
+    </form>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 LivraisonPlat - Tous droits réservés.</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
