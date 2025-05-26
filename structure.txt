@@ -1,0 +1,8 @@
+MENU 
+    acceuil
+    services 
+    connexion 
+    contact
+
+AUTRES PAGES
+    formulaire de livraison
