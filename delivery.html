@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Commande | De Livraison </title>
+  <link rel="stylesheet" href="css/style.css" />
+  <style>
+    /* Formulaire commande */
+.commande-section {
+  padding: 2rem;
+  background: #111010d1;
+}
+
+.commande-title {
+  text-align: center;
+  color: var(--primary);
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.commande-form {
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.commande-form label {
+  font-weight: bold;
+  color: var(--dark);
+}
+
+.commande-form input,
+.commande-form textarea {
+  padding: 0.8rem;
+  border: 1px solid #000000;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+.commande-form button {
+  margin-top: 1rem;
+  align-self: center;
+  padding: 0.8rem 2rem;
+}
+
+ body {
+        background-color: #f7ee3c7b;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        margin: 0;
+      }
+      .form-container {
+        color: #fff;
+        width: 600px;
+        height: 100%;
+        padding: 300px;
+        margin: 100px auto;
+        border-radius: 10px;
+        border: solid #00000059 0.001cm;
+        box-shadow: #000000f5 0px 5px 2cap;
+        box-sizing: border-box;
+        padding: 20px 30px;
+        background-color: #be1523d1;
+      }
+
+      .title {
+        text-align: center;
+        font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+          "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+        margin: 10px 0 30px 0;
+        font-size: 28px;
+        font-weight: 800;
+      }
+
+      .form {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 18px;
+        margin-bottom: 15px;
+      }
+
+      .input {
+        border-radius: 20px;
+        border: 1px solid #0a0a0a;
+        outline: 0 !important;
+        box-sizing: border-box;
+        padding: 12px 15px;
+      }
+
+      .page-link-label {
+        cursor: pointer;
+        font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+          "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+        font-size: 9px;
+        font-weight: 700;
+      }
+
+      .form-btn {
+        padding: 10px 15px;
+        font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+          "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+        border-radius: 20px;
+        border: 0 !important;
+        outline: 0 !important;
+        background: teal;
+        color: white;
+        cursor: pointer;
+        box-shadow: rgba(0, 0, 0, 1.24) 0px 3px 8px;
+      }
+
+      .form-btn:active {
+        box-shadow: #000;
+      }
+      .buttons-container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        margin-top: 20px;
+        gap: 15px;
+      }      
+    </style>
+  </head>
+  <body>
+    <div class="form-container">
+      
+    <h1 class="commande-title">Informations de Livraison</h1>
+    <form class="commande-form" action="#" method="post">
+      <label for="nom">Nom complet :</label>
+      <input type="text" id="nom" name="nom" required />
+
+      <label for="adresse">Adresse de livraison :</label>
+      <textarea id="adresse" name="adresse" rows="3" required></textarea>
+
+      <label for="tel">Numéro de téléphone :</label>
+      <input type="tel" id="tel" name="tel" required />
+
+      <label for="notes">Instructions supplémentaires (facultatif) :</label>
+      <textarea id="notes" name="notes" rows="2"></textarea>
+
+      <button type="submit" class="btn">Confirmer la commande</button>
+    </form>
+
+  <footer>
+    <p>&copy; 2025 FAST DELIVERY - Tous droits réservés.</p>
+  </footer>
+
+  </body>
+</html>
