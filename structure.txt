@@ -1,0 +1,18 @@
+MENU 
+    acceuil : Point d’entrée principal pour les visiteurs. Présente immédiatement l’identité de FAST DELIVERY et ses atouts.
+
+            - section hero 
+            - section partenaire
+            - section à propos 
+            - section témoignage 
+            - footer 
+    
+    services : Détailler les offres pour informer et convaincre le client.
+    
+    connexion : Permettre aux clients existants de se connecter à leur espace personnel.
+    
+    contact : Faciliter la prise de contact et la génération de leads.
+
+
+AUTRES PAGES
+    formulaire de livraison : Recueillir les détails nécessaires pour une demande d’envoi.
